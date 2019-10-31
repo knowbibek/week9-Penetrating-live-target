@@ -39,12 +39,24 @@ OR SLEEP(5)=0--'
 ![](Images/Green_useremu/sameuser.png)
 ![](Images/Green_useremu/differntuser.png)
 
-### Vulnerability #2: 4. Indirect Object Refrence 
+### Vulnerability #2: Indirect Object Refrence 
 * By change the id value on the webaddress, one can view the info of the staff which is not displayed normally
 ```
 https://104.198.208.81/green/public/staff/users/edit.php?id=2 
 ```
 ![](Images/indirectobjectreference.gif)
+
+### Vulnerablity #3: Cross-Site Scripting 
+* While fillin the contact us form in the greensite homepage, in the feedback form we can put script as below
+
+```
+<script>alert('Ok then, How about this?')</script>
+
+```
+* Below is the gif walkthrough
+
+![](Images/NewXRF.gif)
+
 ## Red
 
 ### Vulnerability #1: Insecure Direct Object Reference (IDOR)
