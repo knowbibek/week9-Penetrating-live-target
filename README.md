@@ -22,11 +22,10 @@ OR SLEEP(5)=0--'
 ### Vulnerability #2: Session HighJacking
 
 * In the blue site, One can get into the system by highjacking the session ID
-* Burp suite was used.
-* One can modify the session and get into the victimaccount through this.
-* Traffic is intercepted and new session ID is entered to get access
+* I get the sessionID while logging in from the green site and note the sessionID, I cleared the cookie to make sure it work.
+* I looged in blue site from another browser and changed the session ID while I was trying to log in and BOOM I am in.
 
-![](Images/sessionHighjackBlue.gif)
+![](Images/SessionBlue.gif)
 
 
 ## Green
