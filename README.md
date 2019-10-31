@@ -24,7 +24,7 @@ Vulnerability #2: __________________
 
 
 ## Green
-C:\Users\knowb\Documents\Githubsss files\week9-Penetrating-live-target\Webapp\same user.png
+![](Webapp/useremu.gif)
 
 Vulnerability #1: __________________
 
