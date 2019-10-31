@@ -31,6 +31,7 @@ Vulnerability #1: __________________
 Vulnerability #2: __________________
 
 
+
 ## Red
 
 Vulnerability #1: __________________
